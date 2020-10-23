@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/anhhai"
+        android:id="@+id/img"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Văn Hải"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:id="@+id/text1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1811505310213"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:id="@+id/text2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
